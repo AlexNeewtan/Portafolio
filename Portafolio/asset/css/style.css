@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    background: linear-gradient(135deg, #172c8d, #000000, #172c8d); 
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #172c8d, #000000, #172c8d); 
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.presentacion {
+    background: linear-gradient(135deg, #172c8d, #000000, #172c8d); /* Degradado de tres colores */
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.btn{
+
+        display: inline-block; 
+        padding: 8px 18px; 
+        font-size: 14px; 
+        color: white; 
+        background-color: #ce2111; 
+        border: none; 
+        border-radius: 5px; 
+        text-align: center; 
+        text-decoration: none; 
+        transition: background-color 0.3s, transform 0.3s; 
+        cursor: pointer; 
+    }
+    
+    .btn:hover {
+        background-color: #00d9ff; 
+        transform: scale(1.05); 
+    }
+    
+    .btn:active {
+        transform: scale(0.95); 
+    
+
+}
+.proyecto {
+    flex: 1 1 calc(30% - 20px);
+    margin: 10px;
+    background: #000000;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.proyecto img {
+    width: 100%; 
+    height: auto; 
+    max-width: 300px; 
+    margin: 0 auto; 
+}
+
+.proyecto h3 {
+    margin: 10px 0;
+}
+
+.proyecto p {
+    padding: 0 10px 10px;
+}
+
+section {
+    padding: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000000;
+}
+.foto img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover; 
+    border: 2px solid #007bff; 
+    border-radius: 5%;
+
+
+ }
